@@ -11,7 +11,7 @@ export default function Navbar({ isScrolled }) {
   const [isPhoneTooltipOpen, setIsPhoneTooltipOpen] = useState(false);
 
   return (
-    <nav className={`sticky top-0 w-full bg-white shadow-md p-4 transition-all duration-300 ${isScrolled ? "bg-white" : "bg-[#044f36]"}`}>
+    <nav className={` z-[999999] sticky top-0 w-full bg-white shadow-md p-4 transition-all duration-300 ${isScrolled ? "bg-white" : "bg-[#044f36]"}`}>
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-semibold text-gray-800">Better</div>
